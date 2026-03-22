@@ -1,0 +1,14 @@
+# Dependency folders
+node_modules/
+
+# Environment variables (NEVER PUSH THIS)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS related files
+.DS_Store
+Thumbs.db
