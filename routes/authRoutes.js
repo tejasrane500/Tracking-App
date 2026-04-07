@@ -17,7 +17,7 @@ router.post('/save-request', authController.saveTrackRequest);
 router.delete('/delete-history/:id', authController.deleteHistory);
 
 // --- Tracking Routes ---
-router.post('/send-request', trackController.sendRequest);
+router.post('/send-request', authController.saveTrackRequest);
 router.get('/incoming/:userId', trackController.getIncomingRequests);
 router.post('/respond', trackController.respondToRequest);
 router.get('/friend-location', trackController.getFriendLocation);
